@@ -12,12 +12,12 @@
     <header class="header">
         <a href=""class=""></a><!--css Sheet-->
         <nav>
-                <a>Home</a>
-                <a>About</a>
-                <a>Qulifications</a>
-                <a>Task</a>
-                <a>Gallery</a>
-                <a>ContactUs</a>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#qualification">Qulifications</a>
+                <a href="#task">Task</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contactUs">ContactUs</a>
         </nav>
     </header>
     
@@ -27,6 +27,7 @@
 
      <section>
          <div>
+             <h1 id="home">Home</h1>
              <img src="asserts/images/myImg.png" alt=""title=""width="300"height="300">
              <h1>Hello! I'M Fahim</h1>
              <h3>I’m a Software Engineer from Sri Lanka</h3>
@@ -35,9 +36,8 @@
 
      </section>
     <br><br><br><br>
-
-    <!--about-->
-        <h1>About</h1>
+    <!-------------------------------about------------------------------------------------------>
+        <h1 id="about">About</h1>
         <img src="asserts/images/prg.jpg" alt="about4to"title="programming"width="250"height="250">
         <section>
             <h1><span class="colurchange">F</span>ahim</h1>
@@ -70,9 +70,9 @@
             </div>
         </section>
 
-    <!--Qualifications-->
+    <!-------------------------------------Qualifications---------------------------------------------------->
         <section>
-            <h1>Qualifications</h1>
+            <h1 id="qualification">Qualifications</h1>
             <img src="asserts/images/g.jpg" alt="g"title="g"width="200"height="200">
             <img src="asserts/images/g1.jpg" alt="g1"title="g1"width="200"height="200">
             <img src="asserts/images/g2.jpg" alt="g2"title="g2"width="200"height="200">
@@ -104,9 +104,9 @@
             </div>
         </section>
 
-    <!--Tasks-->
+<!---------------------------------------Tasks---------------------------------------->
 <section>
-    <h1>Tasks</h1>
+    <h1 id="task">Tasks</h1>
 
     <section>
         <h2>ASSIGNMENTS</h2>
@@ -129,28 +129,102 @@
     </section>
     <section>
         <h2>Projects</h2>
-        <div>
+
             <div>
                 <span>Final Project-police Station</span><br>
                 <span>Tollow Chat Application</span><br>
-                <span>Layered architecture</span><br>
+                <span>Student managment</span><br>
                 <span>Connect 4 Game</span><br>
                 <span>To-Do_list App</span><br>
             </div>
-
-
-
-
-
-        </div>
     </section>
-
-
-
-
-
 </section>
 
+<!------------------------------Gallery------------------------------->
+    <section id="gallery">
+        <h1>Gallery</h1>
+        <h2>Photo Booth</h2>
 
+            <div>
+                <img src="asserts/MyImages/bmich.jpeg" alt="bmich"title="bmich"width="150"height="150"><br>
+                <span>BMICH</span>
+            </div>
+             <br>
+            <div>
+                <img src="asserts/MyImages/innovesta%20droup.jpg" alt="innovesta"title="innovesta"width="150"height="150"><br>
+                <span>Innovesta</span>
+            </div>
+             <br>
+            <div>
+                <img src="asserts/MyImages/mastermind.jpg" alt="award"title="award"width="150"height="150"><br>
+                <span>Award Ceremony</span>
+            </div>
+             <br>
+             <div>
+                <img src="asserts/MyImages/working.jpg" alt="code"title="code"width="150"height="150"><br>
+                <span>Coding Time</span>
+            </div>
+             <br>
+             <div>
+                <img src="asserts/MyImages/gym.jpg" alt="gym"title="gym"width="150"height="150"><br>
+                <span>Gym</span>
+            </div>
+             <br>
+             <div>
+                <img src="asserts/MyImages/chilhood.jpg" alt="chilhood"title="chilhood"width="150"height="150"><br>
+                <span>chilhood</span>
+            </div>
+             <br>
+             <div>
+                <img src="asserts/MyImages/nature.jpg" alt="nature"title="nature"width="150"height="150"><br>
+                <span>nature</span>
+            </div>
+             <br>
+             <div>
+                <img src="asserts/MyImages/Oman.jpg" alt="Oman"title="Oman"width="150"height="150"><br>
+                <span>Oman Memories</span>
+            </div>
+            <br>
+    </section>
+
+    <!-----------------------contact us-------------------------------->
+    <section>
+        <h1 id="contactUs">Contact Us</h1>
+        <section>
+            <div>
+                <lable for="name">Name</lable><br>
+                <input type="text" id="name"   placeholder="Enter Your Name">
+            </div>
+            <br>
+            <div>
+                <lable for="email">Email</lable><br>
+                <input type="email" id="email"   placeholder="Enter Your Email">
+            </div>
+            <br>
+            <div>
+                <lable for="contact">Contact Number</lable><br>
+                <input type="text" id="contact"placeholder="Enter Your ContactNumber">
+            </div>
+            <br>
+            <div>
+                <lable for="messege">Messege</lable><br>
+                <textarea
+                        name="Enter Your Messege"
+                        id="messege"
+                        cols="30"
+                        rows="10"
+                ></textarea>   
+            </div>
+            <input type="submit">
+        </section>
+
+
+
+
+
+
+
+
+    </section>
 </body>
 </html>
